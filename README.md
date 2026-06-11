@@ -98,6 +98,17 @@ documentado mediante comentarios en el PR identificando a cada participante
 
 ---
 
+
+### 4. Archivos de documentación commiteados vacíos
+Durante el commit `1c75fec` (CVU-5: Agregar documentacion de base de datos — P2),
+los archivos `Casos_Prueba.md`, `Diccionario_Datos.md` y `Gestion_Estados.md`
+fueron commiteados sin contenido. Los archivos fueron creados como marcadores
+de estructura del repositorio pero su contenido no fue completado en esa instancia.
+Adicionalmente, `Diseño_Base_de_Datos.md` fue eliminado por no contener información
+relevante, dado que la estructura de datos ya se encuentra documentada en
+`Diccionario_Datos.md`. Como corrección, se completó el contenido de cada archivo
+y se realizó un nuevo commit en CVU-8 documentando el cambio.
+
 ## Instalación y ejecución
 1. Clonar el repositorio:
    `git clone https://github.com/Bramart96/tpi-chatbot-licencias.git`
